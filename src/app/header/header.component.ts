@@ -11,5 +11,9 @@ export class HeaderComponent{
     onSelect(feature: string){
         this.featureSelected.emit(feature);
     }
+
+    toggleDarkTheme(): void {
+        document.body.classList.toggle('dark-theme');
+     }
   
 }
