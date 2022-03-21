@@ -1,12 +1,12 @@
 body {
     --text-color: #222;
-    --bkg-color: #fff;
+    --bkg-color: rgba(255, 255, 255, 0.973);
     --btn-txt-color: white;
     --btn-bg-color: rgb(11, 88, 160);
   }
   body.dark-theme {
     --text-color: rgb(8, 126, 223);
-    --bkg-color: #252222;
+    --bkg-color: #181717e8;
     --btn-txt-color: rgb(46, 43, 43);
     --btn-bg-color: rgb(20, 211, 195);
   }

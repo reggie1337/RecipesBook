@@ -22,4 +22,5 @@ export class RecipeItemComponent implements OnInit {
     this.recipeService.recipeSelected.emit(this.recipe);
   }
 
+
 }
